@@ -1,6 +1,6 @@
-C:\Users\DJ\AppData\Local\Temp\VMBuilds\Boiler\mega_atmega2560\Release\heater.cpp.o: \
- C:\Users\DJ\AppData\Local\Temp\VMBuilds\Boiler\mega_atmega2560\Release\heater.cpp \
- C:\Users\DJ\AppData\Local\Temp\VMBuilds\Boiler\mega_atmega2560\Release\heater.h \
+C:\Users\DJ\AppData\Local\Temp\VMBuilds\Boiler\pro_16MHzatmega328\Release\heater.cpp.o: \
+ C:\Users\DJ\AppData\Local\Temp\VMBuilds\Boiler\pro_16MHzatmega328\Release\heater.cpp \
+ C:\Users\DJ\AppData\Local\Temp\VMBuilds\Boiler\pro_16MHzatmega328\Release\heater.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/binary.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/WCharacter.h \
@@ -11,4 +11,5 @@ C:\Users\DJ\AppData\Local\Temp\VMBuilds\Boiler\mega_atmega2560\Release\heater.cp
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Printable.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/USBAPI.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h \
- C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\variants\mega/pins_arduino.h
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\variants\eightanaloginputs/pins_arduino.h \
+ c:\program\ files\ (x86)\arduino\hardware\arduino\avr\variants\standard\pins_arduino.h

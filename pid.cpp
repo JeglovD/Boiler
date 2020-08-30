@@ -21,4 +21,6 @@ void Pid::Loop() {
 		mErrorPrevious = error;
 		mActuator(mProportional + mIntegral + mDifferential);
 	}
+	else
+		mActuator( 0 );
 }

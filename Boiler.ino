@@ -1,11 +1,14 @@
 #include "temperature.h"
 #include "heater.h"
 #include "pid.h"
+#include "timer.h"
 
 Pid pid{ Temperature::Instance(), Heater::Instance(), 70, 0.1, 0.0001, 1 };
 
 void setup() {
 	Serial.begin(57600);
+
+	Timer::Instance();
 }
 
 void loop() {

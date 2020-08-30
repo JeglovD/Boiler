@@ -1,5 +1,7 @@
 #include "heater.h"
 
+Heater::Heater() {}
+
 const double& Heater::operator()() {
 	return mHeater;
 }
