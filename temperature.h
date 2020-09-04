@@ -1,6 +1,7 @@
 #pragma once
 
 #include <Arduino.h>
+#include <OneWire.h>
 
 class Temperature {
 public:
@@ -13,5 +14,7 @@ public:
 private:
 	Temperature();
 
+	OneWire mOneWire{ 2 };
 	double mTemperature;
+	unsigned long mMillisPrevious{ 0 };
 };

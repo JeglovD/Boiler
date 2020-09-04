@@ -3,7 +3,7 @@
 #include "pid.h"
 #include "timer.h"
 
-Pid pid{ Temperature::Instance(), Heater::Instance(), 70, 0.1, 0.0001, 1 };
+Pid pid{ Temperature::Instance(), Heater::Instance(), 28, 0.45/*0.1*/, 0/*0.0001*/, 0/*1*/ };
 
 void setup() {
 	Serial.begin(57600);
